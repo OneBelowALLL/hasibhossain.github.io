@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MD. Hasib Hossain — Aspiring Software Engineer and Competitive Programmer.">
+  <title>Contact | MD. Hasib Hossain</title>
+  <script>
+    (function () {
+      try {
+        var savedTheme = localStorage.getItem('portfolio-theme');
+        if (savedTheme === 'dark' || savedTheme === 'light') {
+          document.documentElement.setAttribute('data-theme', savedTheme);
+        }
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html">HASIB<span>HOSSAIN</span><i>.</i></a><nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="skills.html" data-nav="skills">Skills</a>
+      <a href="projects.html" data-nav="projects">Projects</a>
+      <a href="achievements.html" data-nav="achievements">Achievements</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
+        <span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Dark</span>
+      </button>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+<main>
+
+<section class="container page-main">
+  <div class="page-intro"><p class="eyebrow">LET'S CONNECT</p><h1>Contact <span class="gradient-text">Me</span></h1><p class="muted">Feel free to reach out regarding software engineering opportunities, programming, or collaboration.</p></div>
+  <section class="contact-layout">
+    <div class="panel contact-info"><h2>Contact details</h2><p class="muted">The following contact information is included in my CV.</p>
+      <div class="contact-line"><span>✉</span><div><small>Email</small><a href="mailto:mdhasibhossain92@gmail.com">mdhasibhossain92@gmail.com</a></div></div>
+      <div class="contact-line"><span>☎</span><div><small>Phone</small><a href="tel:+8801927230142">+880 1927-230142</a></div></div>
+      <div class="contact-line"><span>⌘</span><div><small>GitHub</small><a href="https://github.com/OneBelowALLL" target="_blank" rel="noopener">github.com/OneBelowALLL ↗</a></div></div>
+      <div class="contact-line"><span>⌖</span><div><small>Location</small><span>Dhaka, Bangladesh</span></div></div>
+    </div>
+    <form class="panel contact-form" id="contact-form" novalidate>
+      <h2>Send a message</h2>
+      <label for="visitor-name">Your name</label><input id="visitor-name" name="name" type="text" placeholder="Enter your name" required>
+      <label for="visitor-email">Your email</label><input id="visitor-email" name="email" type="email" placeholder="name@example.com" required>
+      <label for="visitor-message">Message</label><textarea id="visitor-message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+      <button class="btn btn-primary" type="submit">Validate message <span>↗</span></button>
+      <p class="form-feedback" id="form-feedback" aria-live="polite">This demonstration form validates the entered information in the browser. It does not send or store messages.</p>
+    </form>
+  </section>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span class="current-year"></span> MD. HASIB HOSSAIN. All rights reserved.</p>
+    <p>Designed &amp; developed with HTML, CSS, JavaScript and jQuery.</p>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
